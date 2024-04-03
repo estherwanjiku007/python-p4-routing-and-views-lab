@@ -5,7 +5,7 @@
 - Build and run a Flask application on your computer.
 - Manipulate and test the structure of a request object.
 
-***
+---
 
 ## Key Vocab
 
@@ -25,7 +25,7 @@
 - **Template Engine**: software that takes in strings with tokenized
   values, replacing the tokens with their values as output in a web browser.
 
-***
+---
 
 ## Instructions
 
@@ -64,7 +64,7 @@ Instructions begin here:
 Once all of your tests are passing, commit and push your work using `git` to
 submit.
 
-***
+---
 
 ## Resources
 
