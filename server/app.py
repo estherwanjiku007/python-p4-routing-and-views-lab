@@ -8,21 +8,19 @@ app = Flask(__name__)
 def index():
     return "<h1>Python Operations with Flask Routing and Views</h1>"
 
-@app.route('/print/<string:parameter>')
+@app.route("/print/<parameter>")
 def print_string(parameter):
     print(f"{parameter}")
     return f"{parameter}"
 
-@app.route('/count/<int:parameter>')
+@app.route("/count/<int:parameter>")
 def count(parameter):
-    my_result = ''
-    for i in range(0, parameter):
-        my_result += f"{i}\n"
-    
+    my_result=""
+    for a in range(0,parameter):
+        my_result+=f"{a}\n"
     return my_result
 
-
-@app.route('/math/<int:num1>/<string:operation>/<int:num2>')
+@app.route("/math/<int:num1>/<string:operation>/<int:num2>")
 def math(num1, num2, operation):
     if operation == '+':
         return f"{num1 + num2}"
